@@ -59,6 +59,10 @@ header img {
     background-color: #fff;
 }
 
+#titulo {
+    color: #fff;
+}
+
 #pdf {
     width: 100%;
     height: 100vh;
