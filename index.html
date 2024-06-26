@@ -49,7 +49,19 @@
     </header>
 
     <main>
-
+        <dialog id="dialog">
+            <div id="dialog_content">
+                <div id="close_modal">
+                    <button title="Fechar" onclick="closeModal()">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                <div id="modal_text">
+                    <h3>Políticas de privacidade</h3>
+                    <p>Em desenvolvimento...</p>
+                </div>
+            </div>
+        </dialog>
     </main>
 
     <footer>
@@ -112,7 +124,7 @@
         </div>
 
         <div id="footer_copyright">
-            <p>© 2024 Baetec Equipamentos Eletrônicos. Todos os direitos reservados. <span> - </span><a href="#" id="abrirModal"> Política de privacidade. </a></p>
+            <p>© 2024 Baetec Equipamentos Eletrônicos. Todos os direitos reservados. <span> - </span><a href="#" id="abrirModal" onclick="showModal()"> Política de privacidade. </a></p>
         </div>
     </footer>
     
