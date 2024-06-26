@@ -59,6 +59,11 @@ header img {
     background-color: #fff;
 }
 
+#nav-item a{
+    display: flex;
+    gap: 1rem;
+}
+
 #titulo {
     color: #fff;
 }
