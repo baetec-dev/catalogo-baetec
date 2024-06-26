@@ -218,6 +218,10 @@ footer {
         display: none;
     }
 
+    .logo img{
+        width: 50px;
+    }
+
     .btn-contato {
         display: none;
     }
